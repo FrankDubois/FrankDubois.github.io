@@ -6,6 +6,7 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 nav_order: 1
 ---
+check out full list on orcid at [https://orcid.org/0000-0002-7654-6208](https://orcid.org/0000-0002-7654-6208)
 <!-- _pages/publications.md -->
 <div class="publications">
 
