@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /research/
-title: research projects
-description: 
-nav: false
-nav_order: 5
+title: Essential regulatory elements of high-level amplicons
+description: Junior Clinician Scientist Project
+img: assets/img/BIH.jpg
+importance: 3
+category: jcsp
 ---
 
 Genomic amplification is the most common genetic gain-of-function variant in cancer. How the extra oncogene copies are active in a different regulatory context than the original remains unclear. We hypothesize that they exploit either tissue-specific or oncogene-specific enhancers and transcription factors. Discovering the factors that drive oncogenic transcription has the potential to reveal cancer-specific dependencies. Indeed, transcription factors (TFs) binding enhancers on high-level MYCN amplicons in neuroblastoma are part of its core regulatory circuit and represent lineage-specific growth dependencies. However, which TFs bind to the enhancers on amplicons of oncogenes in other tumor types remains unknown. We will therefore test the following specific hypotheses in breast and lung cancer samples:
