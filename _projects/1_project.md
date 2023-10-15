@@ -5,7 +5,7 @@ description: Max-Eder Project
 img: assets/img/DKH_Logo_s.jpg
 importance: 1
 category: lab
-related_publications: 
+related_publications: dubois2022structural, NatureCancer3.8
 ---
 
 Most cancer genomes experience DNA amplifications as the most common gain-of-function alterations leading to overexpression of oncogenes. 
@@ -36,37 +36,56 @@ The coding sequences of the oncogenes are only a small fraction of the amplified
 Reconstruction of an MYCN-ID2 extrachromosomal DNA (ecDNA) amplicon. The plot shows two loci on chromosome 2 with the positions of the coding sequences of the MYCN and ID2 genes highlighted in blue and orange respectively. The larger red boxes show co-amplified regions that could contain essential regulatory elements. (from Dubois F et al. Nature Cancer. 2022.) 
 </div>
 
-To answer these questions we will analyze a several hundert breast and lung cancer tumor samples by whole genome sequencing including with long-read technology.
+To answer these questions, we will analyze several hundred breast and lung cancer tumor samples by whole genome sequencing (WGS), including with long-read technology.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/CNprofile.jpg" title="CN profile" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/longreads_lbld.jpg" title="long reads" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ecDNAgenericRec.jpg" title="ecDNA structures" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    (Left) Copy number profile resulting from WGS. (Center) Long-read technology will allow us to detect SVs in the cancer genome (top track) and methylation (middle track) from which we can infer the positions of enhancers and transcription start sites (bottom track). Combing all this data, we can reconstruct the topology of the amplicon (Right)
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ATAC_s.jpg" title="ATAC profiles" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/HiC.jpg" title="HiC" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ecDNA_links.jpg" title="ecDNA links" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Using differences in the epigenetic profiles (left) between tumors with high (top 2 tracks) and low (bottom 2 tracks) expression of the oncogene and HiC to measure 3D genome interactions (center), we will infer which enhancers on the amplicon activate oncogene transcription. By analyzing amplicons of the same oncogene in both non-small cell lung cancer (NSCLC) and breast cancer (BRCA), we can test if there is tissue type specific enhancer usage (right).
 </div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/CRISPR.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/prelim.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    We will validate which regulatory elements are essential for oncogene expression and cancer cell growth using CRISPR-based genome engineering (left). We have already identified dozens of suitable cell lines of both cancer types that show amplifications of the same oncogenes to test our hypotheses (right).
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+We are part of a multi-institutional network of collaborators combining efforts to understand cancer genomes.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/colabs.jpg" title="network" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Our collaborators at Charité and other leading cancer centers.   
+</div>
